@@ -1,0 +1,27 @@
+.title {
+    font-size: xx-large;
+    margin-top: 30px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: #000;
+}
+.title:hover {
+    text-decoration: none;
+}
+svg {
+    width: 70px;
+}
+.header {
+    height: 100px;
+}
+
+.login, .signup {
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}

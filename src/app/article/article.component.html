@@ -1,0 +1,16 @@
+<div class="card article">
+    <div class="up-down-vote">
+        <button (click)="upvote()" class="up-down">
+            <img src="./assets/images/up-arrow.svg" height="30px" width="30px">
+        </button>
+        {{article.votes}}
+        <button (click)="downvote()" class="up-down">
+            <img src="./assets/images/down-arrow.svg" height="30px" width="30px">
+        </button>
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">{{article.title}}</h5>
+        <p class="card-text">{{article.description}}</p>
+        <a *ngIf="!opend" routerLink="/articles/{{article.id}}" class="btn btn-primary">Open</a>
+    </div>
+</div>

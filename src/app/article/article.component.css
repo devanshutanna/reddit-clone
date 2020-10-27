@@ -1,0 +1,24 @@
+.article {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.up-down {
+    border: none;
+    background-color: #0000;
+}
+.up-down-vote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 15px;
+}
+.card-body {
+    flex: 90%;
+    line-height: 100px;
+} 
